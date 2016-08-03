@@ -1,0 +1,24 @@
+#employees {
+  display: flex;
+}
+
+.employee {
+  flex-grow: 1;
+  border: 2px solid grey;
+  margin: 0 5px;
+}
+
+.employee h1 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.employee p {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.employee img {
+  display: block;
+  margin: 20px auto 0;
+}
