@@ -10,7 +10,7 @@
 
 .employee h1 {
   text-align: center;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .employee p {
@@ -21,4 +21,8 @@
 .employee img {
   display: block;
   margin: 20px auto 0;
+}
+
+#dog_bullet {
+  display: inline-block;
 }
