@@ -1,0 +1,32 @@
+#container {
+  display: block;
+  border: 1px solid red;
+}
+
+#row_top {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+#row_bottom {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.product_card {
+  margin: 5px;
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.product_card img {
+  margin: 0 auto;
+}
+
+.key_values {
+}
