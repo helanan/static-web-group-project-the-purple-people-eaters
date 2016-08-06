@@ -9,34 +9,21 @@ var products = [
   {Name: "Puppy Turtleneck", Description: "8: Cute turtleneck for your stylish pooch!", Price: "$50", URL: "http://dogmilk.designmilk.netdna-cdn.com/images/2015/12/long_dog_clothing_03.jpg"}
 ];
 
-var cardInfo = ["Name", "Description", "Price", "URL"];
+var cardInfo = [];
+
+for (key in products[0]) {
+  cardInfo.push(key);
+}
 
 for (var i = 0; i < products.length; i++) {
   var infoDiv = document.getElementById("product_information_" + i);
-  cardInfo.forEach(item => infoDiv.innerHTML += (item !== "URL") ? `<p class='key_values'>${products[i][item]}</p>` :
-    `<img class='link' src='${products[i][item]}'>`)
+  var productInfo = products[i];
+  for (var j = 0; j < cardInfo.length; j++) {
+    var productAttribute = cardInfo[j];
+    if (productAttribute !== "URL") {
+      infoDiv.innerHTML += "<p class='key_values'>" + productInfo[productAttribute] + "</p>";
+    } else {
+      infoDiv.innerHTML += "<img class='link' src='" + productInfo[productAttribute] + "'>";
+    }
+  }
 }
-
-// for (var i = 0; i < products.length; i++) {
-//   var infoDiv = document.getElementById("product_information_" + i);
-//   cardInfo.forEach(item => item !== "URL" ? infoDiv.innerHTML += `<p class='key_values'>${products[i][item]}</p>` :
-//     infoDiv.innerHTML += `<a href='${products[i][item]}'>Link</a>`)
-// }
-
-
-// for (var i = 0; i < products.length; i++) {
-//   var infoDiv = document.getElementById("product_information_" + i);
-//   cardInfo.forEach(function(item) {
-//     if (item !== "URL") {
-//       infoDiv.innerHTML += "<p class='key_values'>" + products[i][item] + "</p>";
-//     } else {
-//       infoDiv.innerHTML += "<a href='" + products[i][item] + "'>" + "Link" + "</a>";
-//     }
-//   })
-// }
-
-//    var infoDiv = document.getElementById("product_information_" + i);
-//   infoDiv.innerHTML += "<p class='key_values'>" + products[i].Name + "</p>";
-//   infoDiv.innerHTML += "<p class='key_values'>" + products[i].Description + "</p>";
-//   infoDiv.innerHTML += "<p class='key_values'>" + products[i].Price + "</p>";
-//   infoDiv.innerHTML += "<p class='key_values'>" + products[i].URL + "</p>";
