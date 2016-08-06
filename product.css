@@ -1,13 +1,14 @@
 #container {
   display: block;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 #row_top {
   display: flex;
   width: 100%;
-  flex-grow: 1;
   flex-direction: row;
+  /*border: 1px solid red;*/
+
 }
 
 #row_bottom {
@@ -19,14 +20,31 @@
 
 .product_card {
   margin: 5px;
-  display: flex;
-  flex-grow: 1;
+  padding: 0 5px;
   border: 1px solid black;
+  flex-grow: 1;
+}
+
+.product_card div {
+  display: block;
 }
 
 .product_card img {
-  margin: 0 auto;
+  /*border: 1px solid red;*/
+  width: 350px;
+  height: 350px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.information a {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .key_values {
+  /*border: 1px solid red;*/
+  display: block;
+  text-align: center;
 }
