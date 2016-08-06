@@ -15,13 +15,20 @@ for (key in products[0]) {
   cardInfo.push(key);
 }
 
+//loop through products array
 for (var i = 0; i < products.length; i++) {
+  //select relevant card div
   var infoDiv = document.getElementById("product_information_" + i);
+  //select relevant object from products array
   var productInfo = products[i];
+  //loop through cardInfo array
   for (var j = 0; j < cardInfo.length; j++) {
+    //select relevent attribute name
     var productAttribute = cardInfo[j];
+    //if attribute name is not URL, wrap the text in a paragraph tag
     if (productAttribute !== "URL") {
       infoDiv.innerHTML += "<p class='key_values'>" + productInfo[productAttribute] + "</p>";
+      //if attribute name is URL, wrap the text in an img tag
     } else {
       infoDiv.innerHTML += "<img class='link' src='" + productInfo[productAttribute] + "'>";
     }
