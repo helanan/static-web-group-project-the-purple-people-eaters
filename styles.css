@@ -24,8 +24,7 @@ h2 {
    text-align: center;
    color: #fff;
    margin: 0;
-   padding: 0;
-   
+   padding: 0;   
 }
 
 h3 {
@@ -124,7 +123,7 @@ a.rpanel:hover{
     opacity:0.6; 
     font-size: 16px; 
     text-decoration: none; 
-     font-family: 'Shrikhand', cursive;
+    font-family: 'Shrikhand', cursive;
 }
 
 #nav li a.active { 
@@ -138,36 +137,9 @@ a.rpanel:hover{
     opacity:1;  
 }
 
+/* ------------IMG-----------------------------------------*/
 
 
-/*= QUOTES AND SOME ELEMENTS
---------------------------------------------------------*/
-
-.quotes {   
- font-family: 'Goudy Bookletter 1911', serif;
-   font-weight: normal;
-   font-size: 30px;
-  text-align: left;
-  margin: 50px auto;
-}
-   
- .author_name_white { 
-     font-family:"Wellfleet";  
-     margin: 70px 0 0 75px; 
-     color: #fff; 
-     font-size: 20px; 
-}  
- .author_name_gray { 
-     font-family:"Wellfleet";  
-    margin: 70px 0 0 75px; 
-    color: #94a4a4; 
-     font-size: 20px; 
-}  
-
-.quotes_container { 
-    width: 800px; 
-    margin: 0 auto; 
-}
 #swagdog_home { 
     background: url(../img/DOGLOGO.svg)no-repeat; 
     width: 100px; 
@@ -201,7 +173,8 @@ a.rpanel:hover{
     display: block; 
     position: relative; 
     bottom: -4px;  
-    right: -90px; }
+    right: -90px; 
+}
 
 
 
@@ -251,30 +224,8 @@ ul.built {
     background-size: cover;
 }
 
-#about {
-    background:url('../img/swagthedog-01-02.jpg') 50% 0 no-repeat fixed;
-    color: #333333;
-    margin: 0;
-    background-size: cover;
-}
 
-#employees {
-    background: url(../img/swagthedog-01-03.jpg) 50% 0 no-repeat fixed;
-    color: #333333;
-    height: 600px;
-    padding: 200px 0;
-    background-size: cover;
-    display: flex;
-    font-size: 20px; 
-}
 
-#products {
-    background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
-    background-color: #fff;
-    color: #333333;
-    padding: 200px 0;
-    background-size: cover;
-}
 
 /* FOOTER 
 --------------------------------------------------------*/
@@ -294,13 +245,22 @@ ul.built {
 
 /*---About-----*/
 
+#about {
+    background:url('../img/swagthedog-01-02.jpg') 50% 0 no-repeat fixed;
+    color: #333333;
+    height: 600px;
+    margin: 0;
+    overflow: hidden;
+    padding: 200px 0;
+    background-size: cover;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
     width: 4000px;
     height: 100px;
     background-color: black;
-
 }
 
 .flex-item1 {
@@ -313,7 +273,7 @@ ul.built {
     text-align: center;
     font-size: 200%;
     padding-top: 30px;
-    text-color: red;
+    color: red;
 }	
 
 .flex-item2 {
@@ -325,8 +285,6 @@ ul.built {
     text-align: center;
     font-size: 300%;
     padding-top: 30px;
-
-
 }
 
 .flex-container2 {
@@ -385,21 +343,34 @@ img {
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-top: 20px;
-
 }
 
 
 /* =========EMPLOYEES============ */
+#employees {
+    background: url(../img/swagthedog-01-03.jpg) 50% 0 no-repeat fixed;
+    color: #333333;
+    height: 600px;
+    padding: 200px 0;
+    background-size: cover;
+    display: flex;
+    font-size: 18px; 
+    font-family: "Shrikhand"
+}
 
 .employee {
   flex-grow: 1;
-  border: 2px solid grey;
+  border: 2px solid #F9B777;
+  border-radius: 10px;
   margin: 0 5px;
 }
 
 .employee h1 {
   text-align: center;
-  margin: 5px 0;
+  margin: 20px;
+  font-size: 50px; 
+  color: grey; 
+
 }
 
 .employee p {
@@ -417,6 +388,8 @@ img {
   display: inline-block;
 }
 
+  border-radius: 100px;
+  shape-rendering: 
 /* PRODUCTS */
 
 .product_card {
@@ -438,3 +411,15 @@ img {
   display: block;
   text-align: center;
 }
+
+/* =========PRODUCT============ */
+
+#products {
+    background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
+    background-color: #fff;
+    color: #333333;
+    height: 600px;
+    padding: 200px 0;
+    background-size: cover;
+}
+
