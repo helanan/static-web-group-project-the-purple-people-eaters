@@ -1,13 +1,15 @@
 #container {
-  display: block;
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
   /*border: 1px solid red;*/
 }
 
-#row_top {
+/*#row_top {
   display: flex;
   width: 100%;
   flex-direction: row;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 
 }
 
@@ -16,13 +18,15 @@
   width: 100%;
   flex-grow: 1;
   flex-direction: row;
-}
+}*/
 
 .product_card {
-  margin: 5px;
+  display: inline-block;
+  width: 23%;
+
+  /*margin: 5px;*/
   padding: 0 5px;
   border: 1px solid black;
-  flex-grow: 1;
 }
 
 .product_card div {
@@ -31,7 +35,7 @@
 
 .product_card img {
   /*border: 1px solid red;*/
-  width: 350px;
+  width: 100%;
   height: 350px;
   margin: 0 auto 15px;
   display: block;
