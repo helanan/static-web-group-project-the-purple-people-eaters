@@ -267,6 +267,8 @@ ul.built {
     height: 600px;
     padding: 200px 0;
     background-size: cover;
+    display: flex;
+    font-size: 20px; 
 }
 
 #products {
@@ -278,7 +280,7 @@ ul.built {
     background-size: cover;
 }
 
-/*= FOOTER 
+/* FOOTER 
 --------------------------------------------------------*/
 
 #copyright  { 
@@ -293,6 +295,8 @@ ul.built {
     text-decoration: none; 
     color: #fff;
 }
+
+/*---About-----*/
 
 .flex-container {
     display: -webkit-flex;
@@ -389,10 +393,7 @@ img {
 }
 
 
-/* =========EMPLOYEES============ */h
-#employees {
-  display: flex;
-}
+/* =========EMPLOYEES============ */
 
 .employee {
   flex-grow: 1;
