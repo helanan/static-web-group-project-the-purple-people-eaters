@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 
-h1 { 
+h1 {
     font-family: 'Modak', cursive;
     font-weight:normal;
     font-size: 90px;
@@ -24,7 +24,7 @@ h2 {
    text-align: center;
    color: #fff;
    margin: 0;
-   padding: 0;   
+   padding: 0;
 }
 
 h3 {
@@ -38,155 +38,155 @@ h3 {
     position: relative;
 }
 
-.center { 
-    margin: 0 auto; 
+.center {
+    margin: 0 auto;
 }
 
-.content{ 
-    margin: 0 auto; 
-    width: 960px; 
+.content{
+    margin: 0 auto;
+    width: 960px;
 }
 
-.clear { 
-    clear: both; 
+.clear {
+    clear: both;
 }
 
 a.lpanel {
-    float: left; 
-    color: #e1e1e1; 
-    font-size: 12px; 
-    font-family:"Wellfleet"; 
-    text-decoration: none; 
-    margin: 7px 11px; 
+    float: left;
+    color: #e1e1e1;
+    font-size: 12px;
+    font-family:"Wellfleet";
+    text-decoration: none;
+    margin: 7px 11px;
 }
 
-a.rpanel { 
-    float: right; 
-    color: #e1e1e1;  
-    font-size: 12px; 
-    font-family:"Wellfleet"; 
-    text-decoration: none; 
-    margin: 7px 11px; 
+a.rpanel {
+    float: right;
+    color: #e1e1e1;
+    font-size: 12px;
+    font-family:"Wellfleet";
+    text-decoration: none;
+    margin: 7px 11px;
 }
 
-a.lpanel:hover{ 
-    color: #fff; 
+a.lpanel:hover{
+    color: #fff;
 }
 
-a.rpanel:hover{ 
-    color: #fff; 
+a.rpanel:hover{
+    color: #fff;
 }
 
 /*-------------NAV-----------------*/
 
-#header { 
-    width: 100%; 
-    background: url('../img/header-bg.png'); 
-    height: 80px;   
+#header {
+    width: 100%;
+    background: url('../img/header-bg.png');
+    height: 80px;
     position: fixed;
     margin-top: 30px;
 }
 
-#nav { 
-    width: 410px; 
-    float: right; 
-    margin-top: 20px; 
+#nav {
+    width: 410px;
+    float: right;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
-#logo a { 
-    color: #fff; 
-    text-decoration: none; 
-    float: left; 
-    font-size: 30px; 
-    margin-top: 20px; 
-    color: #fff; 
-   font-family: 'Modak', cursive; 
-    font-weight: normal; 
+#logo a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+   font-family: 'Modak', cursive;
+    font-weight: normal;
 }
 
 #nav ul{
     list-style: none;
     display: block;
     margin: 0 auto;
-    list-style: none;   
+    list-style: none;
 }
 
 #nav li{
-    margin-top: 9px;    
+    margin-top: 9px;
     float: left;
     padding-left: 21px;
 }
 
-#nav li a { 
-    color: #fff; 
-    opacity:0.6; 
-    font-size: 16px; 
-    text-decoration: none; 
+#nav li a {
+    color: #fff;
+    opacity:0.6;
+    font-size: 16px;
+    text-decoration: none;
     font-family: 'Shrikhand', cursive;
 }
 
-#nav li a.active { 
-    color: #fff; 
-    opacity:1; 
-    border-bottom: 2px solid #fff; 
+#nav li a.active {
+    color: #fff;
+    opacity:1;
+    border-bottom: 2px solid #fff;
 }
 
-#nav li a:hover { 
-    color: #fff; 
-    opacity:1;  
+#nav li a:hover {
+    color: #fff;
+    opacity:1;
 }
 
 /* ------------IMG-----------------------------------------*/
 
 
-#swagdog_home { 
-    background: url(../img/DOGLOGO.svg)no-repeat; 
-    width: 100px; 
-    height: 100px; 
-    margin: 0 auto; position: relative; 
+#swagdog_home {
+    background: url(../img/DOGLOGO.svg)no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; position: relative;
     bottom: -100px;}
 
-#ribbon { 
-    background: url('../img/ribbon.png')no-repeat; 
-    width: 251px; height: 48px; 
-    margin: 0 auto;  
-    display: block; 
-    position: relative; top: -38px; 
+#ribbon {
+    background: url('../img/ribbon.png')no-repeat;
+    width: 251px; height: 48px;
+    margin: 0 auto;
+    display: block;
+    position: relative; top: -38px;
 }
 
-#bone1 { 
-    background: url('../img/bone.svg')no-repeat; 
-    width: 40px; 
-    height: 40px; 
-    margin: 0 auto;  
-    display: block; 
-    position: relative; 
-    bottom: -44px; left: -92px; 
+#bone1 {
+    background: url('../img/bone.svg')no-repeat;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -44px; left: -92px;
 }
 
-#bone2 { 
-    background: url('../img/bone2.svg')no-repeat; 
-    width: 40px; 
-    height: 40px; 
-    margin: 0 auto;  
-    display: block; 
-    position: relative; 
-    bottom: -4px;  
-    right: -90px; 
+#bone2 {
+    background: url('../img/bone2.svg')no-repeat;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -4px;
+    right: -90px;
 }
 
 
 
 /* BUTTON$------------------------------------------------*/
 
-button.btn-know { 
-    padding: 15px 47px; 
+button.btn-know {
+    padding: 15px 47px;
     margin: 40px 38.8%;
     text-align: center;
-    border: 4px solid #fff; 
-    color: #fff; 
-    background: transparent; 
+    border: 4px solid #fff;
+    color: #fff;
+    background: transparent;
     font-size: 19px;
     cursor: pointer;
     text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
@@ -195,24 +195,24 @@ button.btn-know {
 }
 
 .btn-know:hover {
-    background: #fff; 
+    background: #fff;
     color: transparent; }
 
-ul.built { 
-    list-style: none; 
-    margin: 0 auto; 
+ul.built {
+    list-style: none;
+    margin: 0 auto;
     width: 730px; }
 
-.built li img { 
-    float: left; 
-    padding-right: 34px; 
+.built li img {
+    float: left;
+    padding-right: 34px;
 }
 
 
 /*---------------MAIN STYLING------------------*/
 
-#home, #{ 
-    width: 100%; 
+#home, #{
+    width: 100%;
 }
 
 #home{
@@ -227,19 +227,19 @@ ul.built {
 
 
 
-/* FOOTER 
+/* FOOTER
 --------------------------------------------------------*/
 
-#copyright  { 
-    color: #fff; 
-    font-family:"Shrikhand";  
-    font-size: 20px; 
-    text-align: center;  
+#copyright  {
+    color: #fff;
+    font-family:"Shrikhand";
+    font-size: 20px;
+    text-align: center;
     background-color: #F9B777;
 }
 
-#copyright  a { 
-    text-decoration: none; 
+#copyright  a {
+    text-decoration: none;
     color: #fff;
 }
 
@@ -273,7 +273,7 @@ ul.built {
     font-size: 200%;
     padding-top: 30px;
     color: red;
-}	
+}
 
 .flex-item2 {
     background-color: white;
@@ -289,8 +289,6 @@ ul.built {
 .flex-container2 {
     display: -webkit-flex;
     display: flex;
-    width: 4000px;
-    height: 1000px;
     background-color: black;
 }
 
@@ -353,7 +351,7 @@ img {
     padding: 200px 0;
     background-size: cover;
     display: flex;
-    font-size: 18px; 
+    font-size: 18px;
     font-family: "Shrikhand"
 }
 
@@ -367,8 +365,8 @@ img {
 .employee h1 {
   text-align: center;
   margin: 20px;
-  font-size: 50px; 
-  color: grey; 
+  font-size: 50px;
+  color: grey;
 
 }
 
@@ -386,7 +384,7 @@ img {
 #dog_bullet {
   display: inline-block;
   border-radius: 100px;
-  shape-rendering: 
+  shape-rendering:
 }
 
 
