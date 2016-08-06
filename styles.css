@@ -1,0 +1,94 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 4000px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.flex-item1 {
+
+    background-color: lightgrey;
+    width: 320px;
+    height: 100px;
+    margin: 10px;
+    border-style: solid;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 30px;
+    text-color: red;
+}	
+
+.flex-item2 {
+    background-color: white;
+    width: 1000px;
+    height: 670px;
+    margin: 10px;
+    border-style: solid;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 30px;
+
+
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 4000px;
+    height: 1000px;
+    background-color: black;
+}
+
+.flex-item3 {
+    background-color: lightgrey;
+    width: 320px;
+    height: 600px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.flex-item4 {
+    background-color: gray;
+    width: 1350px;
+    height: 250px;
+    margin-top: 640px;
+    border-style: solid;
+    margin-left:-335px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    padding-top: -30px;
+
+}
+
+.a {
+	text-align: center;
+}
+
+.p {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 5px;
+	text-indent: 50px;
+}
+
+.cp {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+img {
+	padding-right: 5px;
+}
+
+.dogPic {
+
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
