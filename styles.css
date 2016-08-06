@@ -272,7 +272,6 @@ ul.built {
     background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
     background-color: #fff;
     color: #333333;
-    height: 600px;
     padding: 200px 0;
     background-size: cover;
 }
@@ -420,15 +419,12 @@ img {
 
 /* PRODUCTS */
 
-#container {
-  margin: 0;
-  padding: 0;
-}
 .product_card {
   display: inline-block;
   width: 23%;
   padding: 0 5px;
   border: 1px solid black;
+  background-color: white;
 }
 
 .product_card img {

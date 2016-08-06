@@ -9,7 +9,7 @@ var products = [
   {Name: "Puppy Turtleneck", Description: "8: Cute turtleneck for your stylish pooch!", Price: "$50", URL: "http://dogmilk.designmilk.netdna-cdn.com/images/2015/12/long_dog_clothing_03.jpg"}
 ];
 
-let productsContainer = document.getElementById("product-container");
+let productsContainer = document.getElementById("products");
 
 //loop through products array
 for (var i = 0; i < products.length; i++) {
