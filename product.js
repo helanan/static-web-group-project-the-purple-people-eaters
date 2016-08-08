@@ -15,10 +15,10 @@ let productsContainer = document.getElementById("products");
 for (var i = 0; i < products.length; i++) {
   let cardContent ="";
   cardContent += ' <div class="product_card">';
-  cardContent += "<p class='key_values'>" + products[i].Name + "</p>";
-  cardContent += "<p class='key_values'>" + products[i].Description + "</p>";
-  cardContent += "<p class='key_values'>" + products[i].Price + "</p>";
+  cardContent += "<p class='key_values product-name'>" + products[i].Name + "</p>";
+  cardContent += "<p class='key_values product-description'>" + products[i].Description + "</p>";
   cardContent += "<img class='link' src='" + products[i].URL + "'>";
+  cardContent += '<div class="ribbon-wrapper-blue"><div class="ribbon-blue">'+ products[i].Price +'</div></div>'
   cardContent +="</div>";
   productsContainer.innerHTML += cardContent;
 }

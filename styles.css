@@ -85,6 +85,7 @@ a.rpanel:hover{
     height: 80px;
     position: fixed;
     margin-top: 30px;
+    z-index: 99;
 }
 
 #nav {
@@ -396,9 +397,21 @@ img {
 }
 
 
-/* PRODUCTS */
+
+
+/* =========PRODUCTS============ */
+
+#products {
+    width: 100%;
+    background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
+    background-color: #fff;
+    color: #333333;
+    padding: 200px 0;
+    background-size: cover;
+}
 
 .product_card {
+    position:relative;
   display: inline-block;
   margin-left: 7px;
   margin-bottom: 7px;
@@ -415,19 +428,56 @@ img {
   display: block;
 }
 
+.product-name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.product-description {
+    font-size: 1.15em;
+}
+
 .key_values {
   display: block;
   text-align: center;
 }
 
-/* =========PRODUCT============ */
-
-#products {
-    width: 100%;
-    background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
-    background-color: #fff;
-    color: #333333;
-    padding: 200px 0;
-    background-size: cover;
+.ribbon-wrapper-blue {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
 }
 
+.ribbon-blue {
+  font: bold 15px "Arial";
+  color: #FFF;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #ea2323;
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-blue:before, .ribbon-blue:after {
+  content: "";
+  border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-blue:before {
+  left: 0;
+}
+.ribbon-blue:after {
+  right: 0;
+}
