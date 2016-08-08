@@ -426,6 +426,9 @@ img {
   height: 350px;
   margin: 0 auto 15px;
   display: block;
+  padding: 20px;
+  box-sizing: border-box;
+
 }
 
 .product-name {
