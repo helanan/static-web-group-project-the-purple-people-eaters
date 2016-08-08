@@ -396,6 +396,8 @@ img {
 
 .product_card {
   display: inline-block;
+  margin-left: 7px;
+  margin-bottom: 7px;
   width: 23%;
   padding: 0 5px;
   border: 1px solid black;
@@ -417,6 +419,7 @@ img {
 /* =========PRODUCT============ */
 
 #products {
+    width: 100%;
     background: url(../img/swagthedog-01-04.jpg) 50% 0 no-repeat fixed;
     background-color: #fff;
     color: #333333;
