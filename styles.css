@@ -257,15 +257,17 @@ ul.built {
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 4000px;
-    height: 100px;
+    width: 100%;
+    /*width: 4000px;*/
+    /*height: 100px;*/
     background-color: black;
 }
 
 .flex-item1 {
-
+    display: none;
     background-color: lightgrey;
-    width: 320px;
+    /*width: 320px;*/
+    width: 45%;
     height: 100px;
     margin: 10px;
     border-style: solid;
@@ -276,9 +278,10 @@ ul.built {
 
 .flex-item2 {
     background-color: white;
-    width: 1000px;
+/*    width: 1000px;
     height: 670px;
-    margin: 10px;
+*/    margin: 10px;
+    width: 100%;
     border-style: solid;
     text-align: center;
     font-size: 300%;
@@ -292,10 +295,12 @@ ul.built {
 }
 
 .flex-item3 {
+    display: none;
     background-color: lightgrey;
-    width: 320px;
+    width: 45%;
+/*    width: 320px;
     height: 600px;
-    margin: 10px;
+*/    margin: 10px;
     border-style: solid;
 }
 
