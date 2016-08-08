@@ -362,6 +362,10 @@ img {
   margin: 0 5px;
 }
 
+.employee-names {
+    line-height: 80%;
+}
+
 .employee h1 {
   text-align: center;
   margin: 20px;
